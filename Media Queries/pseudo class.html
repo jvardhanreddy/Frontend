@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .button:hover{
+            background-color: red;
+        }
+
+        .button:focus{
+            background-color: brown;
+        }
+        .button:active{
+            background-color: yellow;
+        }
+        li{
+            color: blue;
+        }
+        li:nth-child(even){
+            color:blueviolet;
+        }
+        li:nth-child(3n){
+            color:black;
+        }
+        h1::before{
+            content: "*";
+        }
+        h1::after{
+            content: "$";
+        }
+    </style>
+</head>
+<body>
+    <a href="" class="button">Submit</a>
+    <br>
+    <br>
+    <hr>
+    <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+        <li>item5</li>
+        <li>item6</li>
+    </ul>
+    <br>
+    <br>
+    <hr>
+    <h1 class="name">Veera</h1>
+</body>
+</html>

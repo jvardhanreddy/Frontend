@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #Solid-border, #Double-border, #Dotted-border, #Dashed-border{
+            width:200px;
+            padding:100px;
+            height:150px;
+            margin:200px;
+
+        }
+
+        #Solid-border{
+            border:2px Solid red;
+            border-radius: 12px;
+        }
+        
+        
+        #Dashed-border{
+            border:2px Dashed rgb(102, 0, 255);
+            border-radius: 12px;
+        }
+
+        #Dotted-border{
+            border:2px Dotted rgb(255, 221, 0);
+            
+        }
+
+        #Double-border{
+            border:2px Double rgb(0, 255, 179);
+            
+        }
+        #Solid-border{
+            box-shadow: 5px 5px 10px rgb(0,0,0,0.5);
+        }
+        #Dashed-border{
+            box-shadow: 5px 5px 10px rgb(14, 16, 15, 0.5);
+        }
+        #Dotted-border{
+            box-shadow: 5px 5px 10px rgb(128, 255, 0, 0.5);
+        }
+        #Double-border{
+            box-shadow: 5px 5px 10px rgb(255, 0, 119, 0.5);
+        }
+        #Dotted-border{
+            box-shadow: inset 5px 5px 10px rgb(128, 255, 0, 0.5);
+        }
+        #Double-border{
+            box-shadow: inset 5px 5px 10px rgb(255, 0, 119, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div id="Solid-border">Solid-border</div>
+    <div id="Dashed-border">Dashed-border</div>
+    <div id="Dotted-border">Dotted-border</div>
+    <div id="Double-border">Double-border</div>
+</body>
+</html>
